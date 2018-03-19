@@ -1,0 +1,19 @@
+mca1619@mca-pc62:~/shell/cycle3$ javac Q2ServerUDP.java
+mca1619@mca-pc62:~/shell/cycle3$ java Q2ServerUDP
+RECEIVED: helo
+^Cmca1619@mca-pc62:~/shell/cycle3$ 
+
+
+
+========================
+mca1619@mca-pc62:~/shell/cycle3$ javac Q2ClientUDP.java
+mca1619@mca-pc62:~/shell/cycle3$ java Q2ClientUDP
+helo
+FROM SERVER:HELO
+mca1619@mca-pc62:~/shell/cycle3$ 
+
+
+
+
+
+q
