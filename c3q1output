@@ -1,0 +1,17 @@
+mca1619@mca-pc62:~/shell/cycle3$ javac Q1Server.java
+mca1619@mca-pc62:~/shell/cycle3$ java Q1Server
+Waiting for connection...
+Connection accepted...
+hello Client
+helloserver
+deivka
+mca1619@mca-pc62:~/shell/cycle3$ 
+====================================================
+mca1619@mca-pc62:~/shell/cycle3$ javac Q1Client.java
+mca1619@mca-pc62:~/shell/cycle3$ java Q1Client
+hello Client
+helloserver
+deivka
+exit
+mca1619@mca-pc62:~/shell/cycle3$ 
+
