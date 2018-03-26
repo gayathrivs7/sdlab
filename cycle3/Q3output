@@ -1,0 +1,22 @@
+mca1619@mca-pc61:~/shell/cycle3$ javac Q3echoserver.java
+mca1619@mca-pc61:~/shell/cycle3$ java Q3echoserver
+ Enter the Port Address : 1234
+ Server is Ready To Receive a Message. 
+ Waiting ..... 
+ Client Socket is Connected Succecfully. 
+ Message Received From Client : heloo baby
+ This Message is Forwarded To Client. 
+mca1619@mca-pc61:~/shell/cycle3$ 
+
+================================
+mca1619@mca-pc61:~/shell/cycle3$ javac Q3echoclient.java
+mca1619@mca-pc61:~/shell/cycle3$ java Q3echoclient
+ Enter the Port Address : 1234
+ Server Socket is Connected Succecfully. 
+ Enter the Message : heloo baby
+ Message Send Successfully. 
+ Message From Server : heloo baby
+mca1619@mca-pc61:~/shell/cycle3$ 
+
+
+

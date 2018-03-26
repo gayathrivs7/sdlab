@@ -1,0 +1,26 @@
+import java.io.*;
+import java.net.*;
+public class Q1Client
+{
+Socket socket = null;
+public Q1Client()
+{
+try
+{
+socket = new Socket("localhost",4444);
+new Q1ClientThread(socket);
+}
+catch(UnknownHostException exp)
+{
+exp.printStackTrace();
+}
+catch(IOException exp)
+{
+exp.printStackTrace();
+}
+}
+public static void main(String[] args)
+{
+new Q1Client();
+}
+}

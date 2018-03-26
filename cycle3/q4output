@@ -1,0 +1,23 @@
+mca1619@mca-pc61:~/shell/cycle3$ javac Q4UDPchatclient.java
+mca1619@mca-pc61:~/shell/cycle3$ java Q4UDPchatclient
+Client is Running... Type 'STOP'to Quit
+Client: hello
+gaythri
+how are tou
+Server: hi..g
+Client: Server: git hub
+Client: stop
+Server: STOP
+Client: STOP
+====================
+mca1619@mca-pc61:~/shell/cycle3$ javac Q4UDPchatserver.java
+mca1619@mca-pc61:~/shell/cycle3$ java Q4UDPchatserver
+Server is Running...
+Client: hello
+Server: hi..g
+Client: gaythri
+Server: git hub
+Client: how are tou
+Server: STOP
+Client: stop
+Server

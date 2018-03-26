@@ -1,0 +1,28 @@
+#!bin/sh
+echo "Enter n"
+read n
+i=0
+while [ $i -ne $n ]
+do
+	read num
+	arr[$i]=$num
+	i=`expr $i + 1`
+done
+sum=0
+for((i=0;i<$n;i++))
+do
+	sum=` expr $sum + ${arr[$i]}`
+	rem=$(( ${arr[$i]} % 2 ))
+	if [ $rem -eq 0 ]
+	then
+		esum=` expr $esum + ${arr[$i]}`
+	else
+		osum=` expr $osum + ${arr[$i]}`
+	fi
+done
+echo "sum=$sum"
+echo "even sum =$esum"
+echo "odd=$osum"
+
+
+
